@@ -18,7 +18,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100px;
-    background-position: center;
+    background-position: 0px -20px;
 }
 
 .header-text {
