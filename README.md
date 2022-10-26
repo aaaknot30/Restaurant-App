@@ -1,1 +1,1 @@
-This was am assignment for scrimba front end developer.
+This was an assignment for scrimba front end developer.
