@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    font-family: 'Smythe', cursive;
+} 
+
+.page--container {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+    background-color: #FFFFFF;    
+}
+
+.header {
+    width: 100%;
+    background-image: url("./images/burger_header.png");
+    background-repeat: no-repeat;
+    height: 140px;
+    background-position: center;
+}
+
+.header-text {
+    color: #FFFFFF;
+}
+
+.header--title {
+    font-size: 39px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    font-weight: 100;
+}
+
+.header--subtitle {
+    font-size: 22px;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-weight: 100;
+}
+
+.header_item {
+    width: 100%;
+}
+
+.menu--container {
+    margin: 40px;
+}
+
+.menu--section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+
+
+.img_item {
+    height: 80px;
+}
+
+.menuitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px 0px 10px 0px;
+    padding: 0px;
+}
+
+.menuitem-desc {
+    padding: 0px;
+    margin: 20px 0px 40px 30px;
+}
+
+.menuitem--title {
+    font-size: 28px;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px 0px -10px 0px;
+}
+
+.menuitem--ingredients {
+    font-size: 16px;
+    color: #8B8B8B;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.menuitem--price {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    margin: -5px 0px 0px 0px;
+
+}
+
+.ellipse_img {
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.menuorder {
+    display: block;
+}
+
+.menuorder-header {
+    width: 100%;
+    text-align: center;
+}
+
+.menuorder--title {
+    font-size: 28px;
+    font-weight: 400;
+    
+}
+
+.menuorder-list--item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuorder-item {
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove {
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #BBBBBB;
+    margin: 0px 15px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.menuorder-price {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.menuorder-item-price {
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #393333;
+    padding-top: 10px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.menuorder-btn {
+    text-align: center;
+    
+}
+
+.complete-btn {
+    margin: 20px 0px 60px 0px;
+    width: 100%;
+    padding: 20px 0px;
+    border: none;
+    background-color: #16DB99;
+    color: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.popup {
+    width: 524px;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: 30px;
+    position: absolute;
+    top: 285px;
+    bottom: 0;
+    left: 130px;
+    right: 0;
+    border-radius: 3.88991px;
+    height: 520px;
+    filter: drop-shadow(5px 5px 255px rgba(0, 0, 0, 0.5));
+    display: none;
+}
+
+.card-details {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 55px 0px 40px 0px;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    margin: 12px 0px;
+    padding: 18px 180px 18px 20px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    border: 1.29664px solid #757575;
+    border-radius: 3px;
+}
+
+.pay-btn {
+    margin: 30px 0px 60px 0px;
+    width: 90%;
+    padding: 20px 0px;
+    border: none;
+    background-color: #16DB99;
+    color: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.thankyou-order {
+    width: 580px;
+    text-align: center;
+    display: none;
+    margin: 10px auto;
+    
+}
+
+.thankyou-box {
+    background: #ECFDF5;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.thankyou-message {
+    padding: 40px 60px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #065F46;
+}
+

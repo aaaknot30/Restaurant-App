@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="page--container">
+            <header class="header">
+                <div class="header-text">
+                    <h2 class="header--title">Jimmy's Diner</h2>
+                    <h4 class="header--subtitle">The best burgers and pizza in town.</h4>
+                </div>
+            </header>
+            
+            <main id="menu--container" class="menu--container"></main>
+        </div>
+        <section id="popup" class="popup">
+            <div class="popup-container">
+                <h4 class="card-details">Enter card details</h4>
+                <div class="order-form">
+                <form id="pay-form">
+                    <input class="input" type="text" name="fullName" 
+                        id="fullName" placeholder="Enter you name" />
+                    <input class="input" type="text" name="cardNum" 
+                        id="cardNum" placeholder="Enter card number" />
+                    <input class="input" type="text" name="your_name" 
+                        id="cardCVV" placeholder="Enter CVV" />
+                </div>
+                <div class="order-btn">
+                    <button class="pay-btn" id="pay-btn" type="submit">PAY</button>
+                </div>
+                </form>
+            </div>
+        </section>  
+        <section id="thankyou-order" class="thankyou-order">
+            <div id="thankyou-box" class="thankyou-box">
+            </div>
+            
+        </section>  
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
