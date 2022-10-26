@@ -6,7 +6,7 @@ body {
 } 
 
 .page--container {
-    width: 600px;
+    width: 500px;
     margin: 0 auto;
     display: block;
     background-color: #FFFFFF;    
@@ -14,9 +14,10 @@ body {
 
 .header {
     width: 100%;
-    background-image: url("./images/burger_header.png");
+    background-image: url("./images/surf_background.png");
     background-repeat: no-repeat;
-    height: 140px;
+    background-size: cover;
+    height: 100px;
     background-position: center;
 }
 
@@ -25,17 +26,17 @@ body {
 }
 
 .header--title {
-    font-size: 39px;
+    font-size: 44px;
     margin-left: 40px;
     margin-bottom: 0px;
-    padding-top: 30px;
+    padding-top: 5px;
     font-weight: 100;
 }
 
 .header--subtitle {
     font-size: 22px;
     margin-left: 40px;
-    margin-top: 5px;
+    margin-top: 0px;
     font-weight: 100;
 }
 
@@ -44,7 +45,7 @@ body {
 }
 
 .menu--container {
-    margin: 40px;
+    margin: -10px 40px;
 }
 
 .menu--section {
@@ -54,27 +55,24 @@ body {
     border-bottom: 1px solid #D2D2D2;
 }
 
-
-
 .img_item {
-    height: 80px;
+    height: 50px;
 }
 
 .menuitem {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -20px 0px 10px 0px;
     padding: 0px;
 }
 
 .menuitem-desc {
     padding: 0px;
-    margin: 20px 0px 40px 30px;
+    margin: 0px 0px 10px 30px;
 }
 
 .menuitem--title {
-    font-size: 28px;
+    font-size: 24px;
     color: #000000;
     font-weight: 400;
     font-style: normal;
@@ -82,18 +80,18 @@ body {
 }
 
 .menuitem--ingredients {
-    font-size: 16px;
+    font-size: 14px;
     color: #8B8B8B;
     font-weight: 200;
     font-style: normal;
 }
 
 .menuitem--price {
-    font-size: 20px;
+    font-size: 18px;
     color: #000000;
     font-weight: 400;
     font-style: normal;
-    margin: -5px 0px 0px 0px;
+    margin: -10px 0px 0px 0px;
 
 }
 
@@ -109,11 +107,14 @@ body {
 .menuorder-header {
     width: 100%;
     text-align: center;
+    margin: -15px 0px;
 }
 
 .menuorder--title {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 25px;
     
 }
 
@@ -125,7 +126,7 @@ body {
 
 .menuorder-item {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -137,25 +138,29 @@ body {
     font-weight: 400;
     font-size: 12px;
     color: #BBBBBB;
-    margin: 0px 15px;
+    margin: 0px 5px;
     padding-top: 5px;
     cursor: pointer;
 }
 
 .menuorder-price {
     font-weight: 400;
+    font-size: 20px;
+}
+
+.menuorder-item-total {
+    font-weight: 400;
     font-size: 24px;
 }
 
 .menuorder-item-price {
     font-weight: 400;
-    font-size: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-top: 2px solid #393333;
     padding-top: 10px;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 40px;
 }
 
@@ -165,9 +170,9 @@ body {
 }
 
 .complete-btn {
-    margin: 20px 0px 60px 0px;
+    margin: -20px 0px 60px 0px;
     width: 100%;
-    padding: 20px 0px;
+    padding: 10px 0px;
     border: none;
     background-color: #16DB99;
     color: #FFFFFF;
@@ -180,19 +185,18 @@ body {
 }
 
 .popup {
-    width: 524px;
+    width: 424px;
     text-align: center;
     background-color: #FFFFFF;
-    margin: 30px;
     margin: 0 auto;
     position: relative;
-    top: -900px;
+    top: -570px;
     bottom: 0px;
     left: 0px;
     right: 0px;
     border-radius: 3.88991px;
-    height: 520px;
-    filter: drop-shadow(5px 5px 255px rgba(0, 0, 0, 0.5));
+    height: 370px;
+    filter: drop-shadow(7px 7px 200px rgba(0, 0, 0, 0.9));
     display: none;
 }
 
@@ -200,8 +204,9 @@ body {
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    margin: 55px 0px 40px 0px;
+    font-size: 22px;
+    padding-top: 30px;
+    margin: 10;
 }
 
 .order-form {
@@ -212,20 +217,20 @@ body {
 }
 
 .input {
-    margin: 12px 0px;
-    padding: 18px 180px 18px 20px;
+    margin: 10px 0px;
+    padding: 12px 120px 12px 14px;
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 14px;
     border: 1.29664px solid #757575;
     border-radius: 3px;
 }
 
 .pay-btn {
-    margin: 30px 0px 60px 0px;
-    width: 90%;
-    padding: 20px 0px;
+    margin: 0px 0px 40px 0px;
+    width: 77%;
+    padding: 10px 0px;
     border: none;
     background-color: #16DB99;
     color: #FFFFFF;
@@ -238,23 +243,24 @@ body {
 }
 
 .thankyou-order {
-    width: 580px;
+    width: 500px;
     text-align: center;
     display: none;
-    margin: 10px auto;
+    margin: 0px auto;
     
 }
 
 .thankyou-box {
     background: #ECFDF5;
     border-radius: 3px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     width: 100%;
 }
 
 .thankyou-message {
-    padding: 40px 60px;
+    padding: 20px 0px;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 26px;
     color: #065F46;
 }
 
