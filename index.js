@@ -81,7 +81,7 @@ function render() {
             <h4 class="menuorder--title">Your Order</h4>
         </div>${orderItem}
         <div id="menuorder-item-price" class="menuorder-item-price">
-        <div class="menuorder-item">Total price:</div>
+        <div class="menuorder-item-total">Total price:</div>
         <div class="menuorder-price">$${totalPrice}</div>
         </div>
         <div class="menuorder-btn">
